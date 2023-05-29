@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing) calc(var(--double-spacing) * 2);
+}
+
+.footer span {
+  font: var(--sub-text);
+}
+
+.footer ul {
+  display: flex;
+  gap: var(--spacing);
+}
+
+.footer ul li a {
+  display: flex;
+}
+
+.footer ul li a svg {
+  width: var(--double-spacing);
+  height: auto;
+}

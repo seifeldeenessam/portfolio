@@ -1,0 +1,33 @@
+.button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: var(--spacing) var(--double-spacing);
+  font: var(--sub-label);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.button[data-style='primary'] {
+  background-color: var(--text-primary);
+  color: var(--background-primary);
+  border-radius: var(--border-radius);
+}
+
+.button[data-style='primary']:hover {
+  border-radius: var(--circular-border-radius);
+}
+
+.button[data-style='secondary'] {
+  border: 2px solid var(--text-primary);
+  border-radius: var(--border-radius);
+}
+
+.button[data-style='secondary']:hover {
+  background-color: rgba(5, 5, 5, 0.25);
+}
+
+.button[data-style='tertiary'] {
+  padding: 0;
+}

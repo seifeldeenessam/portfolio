@@ -1,0 +1,27 @@
+:root {
+  /* Colors */
+  --background-primary: #ffffff;
+  --background-secondary: #1a1a1a;
+  --text-primary: #050505;
+  --text-secondary: #808080;
+
+  /* Headings Font Styles */
+  --main-heading: 700 clamp(2rem, 2.25rem, 2.5rem) 'Clash Display', sans-serif;
+  --sub-heading: 500 clamp(1.25rem, 1.5rem, 2rem) 'Clash Display', sans-serif;
+  /* Titles Font Styles */
+  --main-title: 700 clamp(1rem, 1.25rem, 1.5rem) 'Satoshi', sans-serif;
+  --sub-title: 700 clamp(0.8rem, 1rem, 1.25rem) 'Satoshi', sans-serif;
+  /* Labels Font Styles */
+  --main-label: 700 clamp(0.8rem, 1rem, 1.25rem) 'Satoshi', sans-serif;
+  --sub-label: 700 clamp(0.6rem, 0.8rem, 1rem) 'Satoshi', sans-serif;
+  /* Texts Font Styles */
+  --main-text: 500 clamp(0.8rem, 1rem, 1.25rem) 'Satoshi', sans-serif;
+  --sub-text: 500 clamp(0.7rem, 0.8rem, 1rem) 'Satoshi', sans-serif;
+
+  /* Spacing Units */
+  --spacing: 0.75rem;
+  --double-spacing: 1.5rem;
+  --half-spacing: 0.375rem;
+  --border-radius: 0.75rem;
+  --circular-border-radius: 10rem;
+}
